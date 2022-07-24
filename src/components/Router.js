@@ -7,6 +7,8 @@ import Info from "./Info";
 import BasicRoute from "../router/BasicRoute";
 import Styled from "./Styled";
 import SassComponent from "./Styled/SassComponent";
+import CSSModule from "./Styled/CSSModule";
+import StyledComponent from "./Styled/StyledComponent";
 
 const AppRouter = () => {
   return (
@@ -20,6 +22,8 @@ const AppRouter = () => {
           <Route exact path="/average" element={<Average />} />
           <Route exact path="/styled" element={<Styled />} />
           <Route exact path="/sass-component" element={<SassComponent />} />
+          <Route exact path="/css-module" element={<CSSModule />} />
+          <Route exact path="/styled-component" element={<StyledComponent />} />
         </Routes>
       </Router>
     </>
