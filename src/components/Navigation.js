@@ -28,6 +28,12 @@ const Navigation = () => (
     >
       Average
     </Link>
+    <Link
+      to="/styled"
+      style={{ marginRight: 10, textDecoration: "none", color: "black" }}
+    >
+      Styled
+    </Link>
   </nav>
 );
 

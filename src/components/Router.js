@@ -5,6 +5,8 @@ import Counter from "./Counter";
 import Navigation from "./Navigation";
 import Info from "./Info";
 import BasicRoute from "../router/BasicRoute";
+import Styled from "./Styled";
+import SassComponent from "./Styled/SassComponent";
 
 const AppRouter = () => {
   return (
@@ -16,6 +18,8 @@ const AppRouter = () => {
           <Route exact path="/counter" element={<Counter />} />
           <Route exact path="/info" element={<Info />} />
           <Route exact path="/average" element={<Average />} />
+          <Route exact path="/styled" element={<Styled />} />
+          <Route exact path="/sass-component" element={<SassComponent />} />
         </Routes>
       </Router>
     </>
