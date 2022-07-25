@@ -79,6 +79,21 @@ const Navigation = () => (
     >
       Styled
     </Link>
+    <Link
+      to="/to-do"
+      style={{
+        marginRight: 10,
+        textDecoration: "none",
+        color: "black",
+        background: "wheat",
+        paddingTop: 2,
+        paddingBottom: 2,
+        paddingLeft: 5,
+        paddingRight: 5,
+      }}
+    >
+      To-do
+    </Link>
   </nav>
 );
 
