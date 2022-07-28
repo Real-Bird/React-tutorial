@@ -94,6 +94,21 @@ const Navigation = () => (
     >
       To-do
     </Link>
+    <Link
+      to="/immer"
+      style={{
+        marginRight: 10,
+        textDecoration: "none",
+        color: "black",
+        background: "wheat",
+        paddingTop: 2,
+        paddingBottom: 2,
+        paddingLeft: 5,
+        paddingRight: 5,
+      }}
+    >
+      Immer
+    </Link>
   </nav>
 );
 
