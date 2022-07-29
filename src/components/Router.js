@@ -11,6 +11,7 @@ import CSSModule from "./Styled/CSSModule";
 import StyledComponent from "./Styled/StyledComponent";
 import TodoHome from "./todo-app";
 import ImmerHome from "./immer";
+import NotFound from "./NotFound";
 
 const AppRouter = () => {
   return (
@@ -31,6 +32,7 @@ const AppRouter = () => {
           <Route exact path="/to-do" element={<TodoHome />} />
           {/* */}
           <Route exact path="/immer" element={<ImmerHome />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </Router>
     </>
