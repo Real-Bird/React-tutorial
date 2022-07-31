@@ -109,6 +109,21 @@ const Navigation = () => (
     >
       Immer
     </Link>
+    <Link
+      to="/news-viewer"
+      style={{
+        marginRight: 10,
+        textDecoration: "none",
+        color: "black",
+        background: "wheat",
+        paddingTop: 2,
+        paddingBottom: 2,
+        paddingLeft: 5,
+        paddingRight: 5,
+      }}
+    >
+      News Viewer
+    </Link>
   </nav>
 );
 

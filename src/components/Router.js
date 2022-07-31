@@ -12,6 +12,7 @@ import StyledComponent from "./Styled/StyledComponent";
 import TodoHome from "./todo-app";
 import ImmerHome from "./immer";
 import NotFound from "./NotFound";
+import NewsViewer from "./news-viewer";
 
 const AppRouter = () => {
   return (
@@ -30,6 +31,8 @@ const AppRouter = () => {
           <Route exact path="/styled-component" element={<StyledComponent />} />
           {/* To-do app project */}
           <Route exact path="/to-do" element={<TodoHome />} />
+          {/* news viewer */}
+          <Route exact path="/news-viewer" element={<NewsViewer />} />
           {/* */}
           <Route exact path="/immer" element={<ImmerHome />} />
           <Route path="*" element={<NotFound />} />
