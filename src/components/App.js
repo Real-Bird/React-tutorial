@@ -1,10 +1,10 @@
 import React from "react";
-import AppRouter from "./Router";
+import CounterContainer from "./testRedux/CounterContainer";
 
 function App() {
   return (
     <>
-      <AppRouter />
+      <CounterContainer />
     </>
   );
 }
