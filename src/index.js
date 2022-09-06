@@ -1,19 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./components/App";
-import "./index.css";
-import { createStore } from "redux";
-import counter from "./components/testRedux/modules/counter";
-import { Provider } from "react-redux";
-import { composeWithDevTools } from "redux-devtools-extension";
-
-const store = createStore(counter, composeWithDevTools());
+import App from "./App";
+import { ModalProvider } from "./context/open";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Provider store={store}>
+    <ModalProvider>
       <App />
-    </Provider>
+    </ModalProvider>
   </React.StrictMode>
 );
